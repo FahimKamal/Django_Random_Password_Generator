@@ -1,0 +1,20 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Base</title>
+    {# Bootstrap CSS #}
+    <link rel="stylesheet" href="{% static 'bootstrap/bootstrap_4.5.0.min.css' %}">
+  </head>
+  <body>
+    <div class="container">
+      <h1>This is a damo</h1>
+    </div>
+  </body>
+  {# Bootstrap .js files start #}
+  <script type="text/javascript" src="{% static 'bootstrap/jquery-3.5.1.slim.min.js' %}"></script>
+  <script type="text/javascript" src="{% static 'bootstrap/popper.min.js' %}"></script>
+  <script type="text/javascript" src="{% static 'bootstrap/bootstrap.min.js' %}"></script>
+  {# Bootstrap .js files end #}
+</html>
